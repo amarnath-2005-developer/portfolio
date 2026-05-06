@@ -1,0 +1,154 @@
+/* GENERAL ANIMATION SETTINGS */
+
+.animate-top-left::after,
+.reverse-animate-top-left::after,
+.animate-top-right::after,
+.reverse-animate-top-right::after,
+.animate-bottom-left::after,
+.reverse-animate-bottom-left::after,
+.animate-bottom-right::after,
+.reverse-animate-bottom-right::after {
+  animation-fill-mode: forwards;
+  animation-duration: 0.35s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+}
+
+/* HOVER ANIMATION */
+
+@keyframes hover {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* ANIMATE TOP LEFT */
+
+.animate-top-left::after {
+  animation-name: top-left;
+}
+
+.reverse-animate-top-left::after {
+  animation-name: reverse-top-left;
+}
+
+@keyframes top-left {
+  0% {
+    opacity: 0;
+    background-image: var(--tl-5);
+  }
+  100% {
+    opacity: 1;
+    background-image: var(--tl-5);
+  }
+}
+
+@keyframes reverse-top-left {
+  0% {
+    opacity: 1;
+    background-image: var(--tl-5);
+  }
+  100% {
+    opacity: 0;
+    background-image: var(--tl-5);
+  }
+}
+
+.animate-top-right::after {
+  animation-name: top-right;
+}
+
+.reverse-animate-top-right::after {
+  animation-name: reverse-top-right;
+}
+
+@keyframes top-right {
+  0% {
+    opacity: 0;
+    background-image: var(--tr-5);
+  }
+  100% {
+    opacity: 1;
+    background-image: var(--tr-5);
+  }
+}
+
+@keyframes reverse-top-right {
+  0% {
+    opacity: 1;
+    background-image: var(--tr-5);
+  }
+  100% {
+    opacity: 0;
+    background-image: var(--tr-5);
+  }
+}
+
+/* ANIMATE BOTTOM RIGHT */
+
+.animate-bottom-right::after {
+  animation-name: bottom-right;
+}
+
+.reverse-animate-bottom-right::after {
+  animation-name: reverse-bottom-right;
+}
+
+@keyframes bottom-right {
+  0% {
+    opacity: 0;
+    background-image: var(--br-5);
+  }
+  100% {
+    opacity: 1;
+    background-image: var(--br-5);
+  }
+}
+
+@keyframes reverse-bottom-right {
+  0% {
+    opacity: 1;
+    background-image: var(--br-5);
+  }
+  100% {
+    opacity: 0;
+    background-image: var(--br-5);
+  }
+}
+/* ANIMATE BOTTOM LEFT */
+
+.animate-bottom-left::after {
+  animation-name: bottom-left;
+}
+
+.reverse-animate-bottom-left::after {
+  animation-name: reverse-bottom-left;
+}
+
+@keyframes bottom-left {
+  0% {
+    opacity: 0;
+    background-image: var(--bl-5);
+  }
+  100% {
+    opacity: 1;
+    background-image: var(--bl-5);
+  }
+}
+
+@keyframes reverse-bottom-left {
+  0% {
+    opacity: 1;
+    background-image: var(--bl-5);
+  }
+  100% {
+    opacity: 0;
+    background-image: var(--bl-5);
+  }
+}

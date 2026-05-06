@@ -1,0 +1,40 @@
+:root {
+  /* Sleek Dark Theme Colors */
+  --bg: transparent; 
+  --bg-alt: rgba(15, 15, 20, 0.7); /* Improved opacity for better frosted glass blur */
+  --bg-alt-2: rgba(20, 20, 24, 0.8);
+  --bg-transparent: rgba(10, 10, 12, 0.95);
+  --border: 1px solid rgba(255, 255, 255, 0.1);
+  --text: #ffffff;
+  --text-alt: #cccccc;
+
+  /* Face animations */
+  --tl-1: url(../assets/amarnath_avatar.png);
+  --tl-2: url(../assets/amarnath_tl_q1.png);
+  --tl-3: url(../assets/amarnath_mid_tl.png);
+  --tl-4: url(../assets/amarnath_tl_q3.png);
+  --tl-5: url(../assets/amarnath_look_tl.png);
+
+  --tr-1: url(../assets/amarnath_avatar.png);
+  --tr-2: url(../assets/amarnath_tr_q1.png);
+  --tr-3: url(../assets/amarnath_mid_tr.png);
+  --tr-4: url(../assets/amarnath_mid_tr.png);
+  --tr-5: url(../assets/amarnath_look_tr.png);
+
+  --bl-1: url(../assets/amarnath_avatar.png);
+  --bl-2: url(../assets/amarnath_mid_bl.png);
+  --bl-3: url(../assets/amarnath_mid_bl.png);
+  --bl-4: url(../assets/amarnath_mid_bl.png);
+  --bl-5: url(../assets/amarnath_look_bl.png);
+
+  --br-1: url(../assets/amarnath_avatar.png);
+  --br-2: url(../assets/amarnath_mid_br.png);
+  --br-3: url(../assets/amarnath_mid_br.png);
+  --br-4: url(../assets/amarnath_mid_br.png);
+  --br-5: url(../assets/amarnath_look_br.png);
+  --sun: url(../assets/icons/sun.png);
+}
+/* Hide color mode toggle since we are enforcing the dark network theme */
+#color-mode {
+  display: none;
+}

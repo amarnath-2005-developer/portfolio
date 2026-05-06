@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amarnath Gowri Shankar | Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="./assets/icons/favicon.ico" />
+  
+  <script src="./js/animation.js" defer></script>
+  <script src="./js/color-mode.js" defer></script>
+  <script src="./js/project-slideshow.js" defer></script>
+  <script src="./js/particles.js" defer></script>
+  <script src="./js/tilt.js" defer></script>
+  <script src="./js/palette.js" defer></script>
+  
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/animation.css" />
+  <link rel="stylesheet" href="./css/color-mode.css" />
+</head>
+
+<body>
+  <div id="hero">
+    <h5 class="reveal">Hello I'm</h5>
+    <h1 class="reveal delay-1">Amarnath Gowri Shankar</h1>
+    <p class="reveal delay-2">CS Student & AI Developer</p>
+    <div id="hero__animation" class="reveal delay-3">
+      <div id="hero__animation__img"></div>
+    </div>
+  </div>
+
+  <nav id="grid">
+    <!-- TOP LEFT: ABOUT -->
+    <div id="grid__tl">
+      <div id="grid__tl__btn">About</div>
+      <div id="grid__tl__content">
+        <div class="cards">
+          <article class="reveal">
+            <h2>Resume</h2>
+            <a href="./assets/amarnath_resume.pdf" download class="btn" style="margin-top: 10px; display: inline-block; padding: 0.5rem 1rem;">Download CV</a>
+          </article>
+          <article class="reveal delay-1">
+            <h2>Education</h2>
+            <p>B.Tech CSE | 8.69 CGPA</p>
+            <p>KL University</p>
+          </article>
+          <article class="reveal delay-2">
+            <h2>Who am I?</h2>
+            <p>I'm Amarnath Gowri Shankar, a passionate AI Developer and CS Student at KL University.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <!-- TOP RIGHT: EXPERIENCE -->
+    <div id="grid__tr">
+      <div id="grid__tr__btn">Experience</div>
+      <div id="grid__tr__content">
+        <div class="cards experience">
+          <article class="experience__skill reveal">
+            <h2 style="margin-bottom: 1rem;">Core Skills</h2>
+            <div><a href="./assets/certifications/react_cert.png" target="_blank" class="cert-link"><p>React JS</p></a></div>
+            <div><a href="./assets/certifications/python_cert.pdf" target="_blank" class="cert-link"><p>Python</p></a></div>
+            <div><a href="./assets/certifications/java_cert.pdf" target="_blank" class="cert-link"><p>Java</p></a></div>
+          </article>
+          <article class="experience__skill reveal delay-1">
+            <h2 style="margin-bottom: 1rem;">Cloud & AI</h2>
+            <div><a href="./assets/certifications/aws_cert.pdf" target="_blank" class="cert-link"><p>AWS</p></a></div>
+            <div><a href="./assets/certifications/gen_ai_cert.pdf" target="_blank" class="cert-link"><p>Generative AI</p></a></div>
+            <div><a href="./assets/certifications/sql_cert.pdf" target="_blank" class="cert-link"><p>SQL / MySQL</p></a></div>
+            <div><a href="./assets/certifications/git_cert.png" target="_blank" class="cert-link"><p>Git & GitHub</p></a></div>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <!-- BOTTOM LEFT: PROJECTS -->
+    <div id="grid__bl">
+      <div id="grid__bl__btn">Projects</div>
+      <div id="grid__bl__content">
+        <div class="cards">
+          <!-- Project 1 -->
+          <div class="project p-1 reveal">
+            <img class="project__img" src="./assets/portfolio-projects/nova_ai_thumbnail.png" alt="NOVA AI" />
+            <h2 class="project__title">NOVA AI 2.0</h2>
+            <div style="display: flex; width: 100%;">
+               <button class="btn" style="flex: 1;" onclick="window.open('https://github.com/amarnath-2005-developer/NOVA-AI-', '_blank')">Github</button>
+               <button class="btn" style="flex: 1;">Live</button>
+            </div>
+          </div>
+          <!-- Project 2 -->
+          <div class="project p-2 reveal delay-1">
+            <img class="project__img" src="./assets/portfolio-projects/feeding_us_thumbnail.png" alt="FeedingUs" />
+            <h2 class="project__title">FeedingUs</h2>
+            <div style="display: flex; width: 100%;">
+               <button class="btn" style="flex: 1;" onclick="window.open('https://github.com/amarnath-2005-developer/FEEDINGUS-SMARTAPP', '_blank')">Github</button>
+               <button class="btn" style="flex: 1;" onclick="window.open('https://feedingus-smartapp.vercel.app/', '_blank')">Live</button>
+            </div>
+          </div>
+          <!-- Project 3 -->
+          <div class="project p-3 reveal delay-2">
+            <img class="project__img" src="./assets/portfolio-projects/ekosoul_thumbnail.png" alt="EkoSoul" />
+            <h2 class="project__title">EkoSoul AI</h2>
+            <div style="display: flex; width: 100%;">
+               <button class="btn" style="flex: 1;" onclick="window.open('https://github.com/amarnath-2005-developer/EKOSOUL-', '_blank')">Github</button>
+               <button class="btn" style="flex: 1;">Live</button>
+            </div>
+          </div>
+          
+          <div style="display: flex; gap: 1rem; margin-top: 1rem;" class="reveal delay-3">
+            <button class="arrow" onclick="navigateProject(-1)">&#10094;</button>
+            <button class="arrow" onclick="navigateProject(1)">&#10095;</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BOTTOM RIGHT: CONTACT -->
+    <div id="grid__br">
+      <div id="grid__br__btn">Contact</div>
+      <div id="grid__br__content">
+        <div class="cards reveal">
+          <article style="width: 20rem; height: auto;">
+            <h2>Get In Touch</h2>
+            <p>I'm currently looking for new opportunities. My inbox is always open.</p>
+            <div style="display: flex; flex-direction: column; gap: 10px; margin-top: 1rem;">
+              <a href="mailto:amarnathgowrishankar@gmail.com" class="btn" style="border: 2px solid #ff4b2b;">Email Me</a>
+              <a href="https://linkedin.com/in/amarnath-gowrishankar-b86a50325" class="btn" style="border: 2px solid #0077b5;" target="_blank">LinkedIn</a>
+              <a href="https://github.com/amarnath-2005-developer" class="btn" style="border: 2px solid #333;" target="_blank">GitHub</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Command Palette -->
+  <div id="command-palette" class="hidden">
+    <div id="palette-modal">
+      <input type="text" id="palette-search" placeholder="Search... (e.g. 'Projects', 'Resume', 'About')" autocomplete="off">
+      <div id="palette-results">
+        <div class="palette-item" data-action="about">About Me</div>
+        <div class="palette-item" data-action="experience">Experience & Skills</div>
+        <div class="palette-item" data-action="projects">My Projects</div>
+        <div class="palette-item" data-action="contact">Contact Me</div>
+        <div class="palette-item" data-action="resume">Download Resume</div>
+      </div>
+    </div>
+  </div>
+
+  <canvas id="canvas-bg"></canvas>
+</body>
+</html>
