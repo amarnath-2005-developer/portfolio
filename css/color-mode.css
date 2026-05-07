@@ -8,30 +8,30 @@
   --text: #ffffff;
   --text-alt: #cccccc;
 
-  /* Face animations */
-  --tl-1: url(../assets/amarnath_avatar.png);
-  --tl-2: url(../assets/amarnath_tl_q1.png);
-  --tl-3: url(../assets/amarnath_mid_tl.png);
-  --tl-4: url(../assets/amarnath_tl_q3.png);
-  --tl-5: url(../assets/amarnath_look_tl.png);
+  /* Face animations - Stylized 3D Version */
+  --tl-1: url(../assets/amarnath_stylized_avatar.png);
+  --tl-2: url(../assets/amarnath_stylized_avatar.png);
+  --tl-3: url(../assets/amarnath_stylized_avatar.png);
+  --tl-4: url(../assets/amarnath_stylized_tl.png);
+  --tl-5: url(../assets/amarnath_stylized_tl.png);
 
-  --tr-1: url(../assets/amarnath_avatar.png);
-  --tr-2: url(../assets/amarnath_tr_q1.png);
-  --tr-3: url(../assets/amarnath_mid_tr.png);
-  --tr-4: url(../assets/amarnath_mid_tr.png);
-  --tr-5: url(../assets/amarnath_look_tr.png);
+  --tr-1: url(../assets/amarnath_stylized_avatar.png);
+  --tr-2: url(../assets/amarnath_stylized_avatar.png);
+  --tr-3: url(../assets/amarnath_stylized_avatar.png);
+  --tr-4: url(../assets/amarnath_stylized_tr.png);
+  --tr-5: url(../assets/amarnath_stylized_tr.png);
 
-  --bl-1: url(../assets/amarnath_avatar.png);
-  --bl-2: url(../assets/amarnath_mid_bl.png);
-  --bl-3: url(../assets/amarnath_mid_bl.png);
-  --bl-4: url(../assets/amarnath_mid_bl.png);
-  --bl-5: url(../assets/amarnath_look_bl.png);
+  --bl-1: url(../assets/amarnath_stylized_avatar.png);
+  --bl-2: url(../assets/amarnath_stylized_avatar.png);
+  --bl-3: url(../assets/amarnath_stylized_avatar.png);
+  --bl-4: url(../assets/amarnath_stylized_bl.png);
+  --bl-5: url(../assets/amarnath_stylized_bl.png);
 
-  --br-1: url(../assets/amarnath_avatar.png);
-  --br-2: url(../assets/amarnath_mid_br.png);
-  --br-3: url(../assets/amarnath_mid_br.png);
-  --br-4: url(../assets/amarnath_mid_br.png);
-  --br-5: url(../assets/amarnath_look_br.png);
+  --br-1: url(../assets/amarnath_stylized_avatar.png);
+  --br-2: url(../assets/amarnath_stylized_avatar.png);
+  --br-3: url(../assets/amarnath_stylized_avatar.png);
+  --br-4: url(../assets/amarnath_stylized_br.png);
+  --br-5: url(../assets/amarnath_stylized_br.png);
   --sun: url(../assets/icons/sun.png);
 }
 /* Hide color mode toggle since we are enforcing the dark network theme */
