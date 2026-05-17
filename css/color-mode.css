@@ -12,26 +12,26 @@
   --tl-1: url(../assets/amarnath_stylized_avatar.png);
   --tl-2: url(../assets/amarnath_stylized_avatar.png);
   --tl-3: url(../assets/amarnath_stylized_avatar.png);
-  --tl-4: url(../assets/amarnath_stylized_tl.png);
-  --tl-5: url(../assets/amarnath_stylized_tl.png);
+  --tl-4: url(../assets/amarnath_stylized_tl.png?v=2);
+  --tl-5: url(../assets/amarnath_stylized_tl.png?v=2);
 
   --tr-1: url(../assets/amarnath_stylized_avatar.png);
   --tr-2: url(../assets/amarnath_stylized_avatar.png);
   --tr-3: url(../assets/amarnath_stylized_avatar.png);
-  --tr-4: url(../assets/amarnath_stylized_tr.png);
-  --tr-5: url(../assets/amarnath_stylized_tr.png);
+  --tr-4: url(../assets/amarnath_stylized_tr.png?v=2);
+  --tr-5: url(../assets/amarnath_stylized_tr.png?v=2);
 
   --bl-1: url(../assets/amarnath_stylized_avatar.png);
   --bl-2: url(../assets/amarnath_stylized_avatar.png);
   --bl-3: url(../assets/amarnath_stylized_avatar.png);
-  --bl-4: url(../assets/amarnath_stylized_bl.png);
-  --bl-5: url(../assets/amarnath_stylized_bl.png);
+  --bl-4: url(../assets/amarnath_stylized_bl.png?v=2);
+  --bl-5: url(../assets/amarnath_stylized_bl.png?v=2);
 
   --br-1: url(../assets/amarnath_stylized_avatar.png);
   --br-2: url(../assets/amarnath_stylized_avatar.png);
   --br-3: url(../assets/amarnath_stylized_avatar.png);
-  --br-4: url(../assets/amarnath_stylized_br.png);
-  --br-5: url(../assets/amarnath_stylized_br.png);
+  --br-4: url(../assets/amarnath_stylized_br.png?v=2);
+  --br-5: url(../assets/amarnath_stylized_br.png?v=2);
   --sun: url(../assets/icons/sun.png);
 }
 /* Hide color mode toggle since we are enforcing the dark network theme */

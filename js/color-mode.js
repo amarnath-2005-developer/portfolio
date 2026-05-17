@@ -2,7 +2,7 @@
 const toggleButton = document.querySelector("#toggle-button");
 const root = document.querySelector(":root");
 const storageKey = "color-mode";
-const defaultMode = "light-mode";
+const defaultMode = "dark-mode";
 
 // Load the user's preffered color mode from local storage.
 function loadColorMode() {
@@ -13,10 +13,12 @@ function loadColorMode() {
 
 loadColorMode();
 
-// Toggle the color mode
-toggleButton.addEventListener("click", () => {
-  saveColorMode();
-});
+// Toggle the color mode (only if button exists)
+if (toggleButton) {
+  toggleButton.addEventListener("click", () => {
+    saveColorMode();
+  });
+}
 
 // Save the users's preffered color mode to local storage
 function saveColorMode() {
@@ -31,6 +33,7 @@ function saveColorMode() {
 }
 
 function updateToggleButton() {
+  if (!toggleButton) return;
   if (root.classList.contains("dark-mode")) {
     toggleButton.style.backgroundImage = "var(--moon)";
   } else {
